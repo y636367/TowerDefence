@@ -250,5 +250,8 @@ public class SoundManager : MonoBehaviour
 
         audioMixer.SetFloat("BGM", BGMSlider.value);
         audioMixer.SetFloat("SFX", SFXSlider.value);
+
+        BGMSlider.onValueChanged.AddListener(Function_Slider_BGM);
+        SFXSlider.onValueChanged.AddListener(Function_Slider_SFX);
     }
 }

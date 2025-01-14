@@ -40,7 +40,7 @@ public class Monster : MonoBehaviour
         Vector3 t_dir = target.position - transform.position;
         transform.Translate(t_dir.normalized * monsterSpeed * Time.deltaTime, Space.World);
 
-        if (Vector3.Distance(transform.position, target.position) <= 0.4f)
+        if (Vector3.Distance(transform.position, target.position) <= 0.35f)
         {
             GetNextWayPoint();
         }
