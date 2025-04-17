@@ -8,14 +8,14 @@
 
 ## 목차
   1. [개요](#개요)
-  2. [플레이 영상](#플레이영상)
+  2. [플레이 영상](#플레이-영상)
   3. [실행 방법](#실행방법)
   4. [게임 설명](#게임설명)
   5. [게임 정보](#게임정보)
   6. [트러블 슈팅](#트러블슈팅)
 
 ## 개요
- - 프로젝트 이름: Tower_Defense (Demo)
+ - 프로젝트 이름: Space_Invasion_(Demo)
  - 개발 기간: 2023.04.07-2023.05.04
  - 개발 목적 및 동기:<br><br>
  Singleton 패턴, UI 상호작용, 해상도 옵션과 같은 간단한 내용을 짧은 시간에 직접적으로 적용해보기에 가장 적합하다고 판단<br>
@@ -23,13 +23,13 @@
  
  - 개발 엔진 및 사용언어: <img src="https://img.shields.io/badge/unity-000000?style=for-the-badge&logo=unity&logoColor=white"> / <img src="https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
 
-## 플레이영상
-https://github.com/user-attachments/assets/4dc05ea4-173c-42fe-800d-45c129f5ced9
+## 플레이 영상
+<video src="https://github.com/user-attachments/assets/4dc05ea4-173c-42fe-800d-45c129f5ced9" width="640" controls></video>
 
 ## 실행방법
- - link : https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?usp=sharing<br><br>
-   위 링크를 클릭하여 'TowerDefence' 파일을 다운로드
-   압축을 해제 한 후 exe 파일을 통해 게임을 실행
+ 1. [게임 다운르도 링크](https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?usp=sharing)
+ 2. 위 링크를 클릭하여 'TowerDefence' 파일을 다운로드
+ 3. 압축을 해제 한 후 exe 파일을 통해 게임을 실행 
    
  ## 게임설명
 <details>
