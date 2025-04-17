@@ -1,23 +1,40 @@
 <div align=center> 
   
-<h1>Tower_Defense (Demo)</h1>
-타워 디펜스(이름 미정)<br>
+<h1>Space_Invasion_(Demo)</h1>
 몰려오는 몬스터들을 막아내자. <br>
 생각보다 쉽지 않을걸...? <br>
-link : https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?usp=sharing
+
 </div>
 
 ## 목차
-  - [개요](#개요) 
-  - [게임 설명](#게임설명)
-  - [게임 정보](#게임정보)
+  1. [개요](#개요)
+  2. [플레이 영상](#플레이영상)
+  3. [실행 방법](#실행방법)
+  4. [게임 설명](#게임설명)
+  5. [게임 정보](#게임정보)
+  6. [트러블 슈팅](#트러블슈팅)
 
 ## 개요
  - 프로젝트 이름: Tower_Defense (Demo)
  - 개발 기간: 2023.04.07-2023.05.04
+ - 개발 목적 및 동기:<br><br>
+ Singleton 패턴, UI 상호작용, 해상도 옵션과 같은 간단한 내용을 짧은 시간에 직접적으로 적용해보기에 가장 적합하다고 판단<br>
+ 킬링 타임용으로 만들어 틈틈이 플레이 할 목적으로 개발을 결심
+ 
  - 개발 엔진 및 사용언어: <img src="https://img.shields.io/badge/unity-000000?style=for-the-badge&logo=unity&logoColor=white"> / <img src="https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
+
+## 플레이영상
+https://github.com/user-attachments/assets/4dc05ea4-173c-42fe-800d-45c129f5ced9
+
+## 실행방법
+ - link : https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?usp=sharing<br><br>
+   위 링크를 클릭하여 'TowerDefence' 파일을 다운로드
+   압축을 해제 한 후 exe 파일을 통해 게임을 실행
    
  ## 게임설명
+<details>
+<summary>게임 설명 보기</summary>
+ 
   - ### 시작, 설정
 
 <div align=center> 
@@ -41,8 +58,12 @@ link : https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?us
 (현재 1스테이지만 구현된 상태입니다.) <br>
 
 </div>
+</details>
 
 ## 게임정보
+<details>
+<summary>게임 정보 보기</summary>
+
  - ### 인게임 화면
 
 <div align=center> 
@@ -55,7 +76,46 @@ link : https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?us
 
 게임 시작 전 튜토리얼을 통해 어떻게 플레이 하는지 간단하게 익힐 수 있습니다. <br>
 하단 바를 통해서 일시정지 하여 옵션창을 조작 할 수 있으며, 현재 목숨, 코인 등을 확인 할 수 있습니다. <br>
-하단 바에 나열된 타워들을 코인이 충분하다면 설치 할 수 있으며 오른쪽 하단 버튼을 통해 웨이브를 빨리 감거나 게임 진행 속도를 빠르게 하여 플레이 할 수 있습니다. <br>
+하단 바에 나열된 타워들을 코인이 충분하다면 설치 할 수 있으며 오른쪽 하단 버튼을 통해 웨이브를 빨리 감거나<br>
+게임 진행 속도를 빠르게 하여 플레이 할 수 있습니다. <br>
 설치된 타워를 선택하면 왼쪽 상단 창을 통해 해당 타워를 강화 및 처분을 결정 할 수 있습니다. <br>
 
 </div>
+
+</details>
+
+## 트러블슈팅
+<details>
+<summary>트러블슈팅 보기</summary>
+  
+  - ### 몬스터의 이동 경로 이탈 문제 -> 발사체의 몬스터 피격 판정
+<br>
+<div align=center> 
+  
+|<img src="https://github.com/user-attachments/assets/a6fbc696-186e-4bfc-82a2-2af7ca79872e" width="400" height="240"/>|<img src="https://github.com/user-attachments/assets/46be66e6-6ebf-47b2-9b99-10c742b82812" width="400" height="240"/>|
+|---|---|
+
+</div>
+<br>
+
+ - 문제 : 발사체 피격 시 몬스터가 이동 경로에서 조금씩 이탈하는 문제가 발생
+ - 원인 : Collider 의 물리적 충돌로 인해 조금씩 밀려나게 됨
+ - 해결 : 몬스터와 발사체 간 사이 거리 값을 계산, 남은거리<=이동해야할 거리 조건을 통해 피격 판정 변경
+
+<br>
+
+  - ### 타워의 몬스터 공격 우선 순위 선정 문제
+<br>
+<div align=center> 
+  
+|<img src="https://github.com/user-attachments/assets/4f59d7d2-735f-45a0-9cd0-097bd3dccd06" width="400" height="240"/>|<img src="https://github.com/user-attachments/assets/d36b4c73-b0a5-4196-a29e-c19537a360bd" width="400" height="240"/>|
+|---|---|
+
+</div>
+<br>
+
+ - 문제 : 타워와 몬스터 사이 거리가 가장 짧은 몬스터만 피격 하는 문제 발생
+ - 원인 : 타워의 공격 범위 안에 들어간 몬스터들 전부를 타겟으로 설정하여 그 중 거리가 짧은 몬스터만을 공격
+ - 해결 : 최초 공격 대상으로 선정된 타겟이 범위 바깥으로 나가거나 몬스터 사망 시에만 새로 거리가 짧은 몬스터를 타겟으로 선정
+
+</details>
