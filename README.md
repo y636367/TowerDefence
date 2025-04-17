@@ -24,12 +24,12 @@
  - 개발 엔진 및 사용언어: <img src="https://img.shields.io/badge/unity-000000?style=for-the-badge&logo=unity&logoColor=white"> / <img src="https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
 
 ## 플레이 영상
-<video src="https://github.com/user-attachments/assets/4dc05ea4-173c-42fe-800d-45c129f5ced9" width="640" controls></video>
+[▶ 영상 보기](https://github.com/user-attachments/assets/4dc05ea4-173c-42fe-800d-45c129f5ced9)
 
 ## 실행방법
- 1. [게임 다운르도 링크](https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?usp=sharing)
+ 1. [게임 다운로드 링크](https://drive.google.com/file/d/1Ci_ASu_GXxZqVirqHPJliRJ7JbKbP7_j/view?usp=sharing)
  2. 위 링크를 클릭하여 'TowerDefence' 파일을 다운로드
- 3. 압축을 해제 한 후 exe 파일을 통해 게임을 실행 
+ 3. 압축을 해제 후 'TowerDefence.exe' 실행 
    
  ## 게임설명
 <details>
@@ -74,11 +74,9 @@
 |<img src="https://github.com/y636367/TowerDefence/assets/63005842/92ea8220-8522-4397-9321-e6741e7060d2" width="400" height="240"/>|<img src="https://github.com/y636367/TowerDefence/assets/63005842/1f0ce93b-5ee5-4171-a650-16e4a3253a94" width="400" height="240"/>|
 |<div align=center>타워 설치</div>|<div align=center>타워 강화</div>|
 
-게임 시작 전 튜토리얼을 통해 어떻게 플레이 하는지 간단하게 익힐 수 있습니다. <br>
-하단 바를 통해서 일시정지 하여 옵션창을 조작 할 수 있으며, 현재 목숨, 코인 등을 확인 할 수 있습니다. <br>
-하단 바에 나열된 타워들을 코인이 충분하다면 설치 할 수 있으며 오른쪽 하단 버튼을 통해 웨이브를 빨리 감거나<br>
-게임 진행 속도를 빠르게 하여 플레이 할 수 있습니다. <br>
-설치된 타워를 선택하면 왼쪽 상단 창을 통해 해당 타워를 강화 및 처분을 결정 할 수 있습니다. <br>
+게임 시작 전 튜토리얼을 통해 기본 조작을 익힐 수 있습니다. <br>
+하단 바에서는 일시정지, 목숨/코인 확인, 타워 설치가 가능합니다. <br>
+오른쪽 하단 버튼을 통해 웨이브를 빠르게 넘길 수 있으며, 설치된 타워는 선택하여 강화/처분이 가능합니다. <br>
 
 </div>
 
