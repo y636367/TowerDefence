@@ -22,7 +22,7 @@
  킬링 타임용으로 만들어 틈틈이 플레이 할 목적으로 개발을 결심
  
  - 개발 엔진 및 사용언어: <img src="https://img.shields.io/badge/unity-000000?style=for-the-badge&logo=unity&logoColor=white"> / <img src="https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
- - :file_folder: [프로젝트 설명 PPT 다운로드](https://drive.google.com/drive/folders/1inajn1SrUpK5lamLBRsykSRw-whuD89U?usp=sharing)
+ - :file_folder: [프로젝트 설명 PPT 다운로드](https://drive.google.com/uc?export=download&id=10hu3eTE6sJRxGbgwrYv_shCjUMncWiR9)
 
 ## :movie_camera: 플레이 영상
 [▶ 영상 보기](https://github.com/user-attachments/assets/4dc05ea4-173c-42fe-800d-45c129f5ced9)
