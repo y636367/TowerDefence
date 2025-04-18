@@ -4,6 +4,10 @@
 몰려오는 몬스터들을 막아내자. <br>
 생각보다 쉽지 않을걸...? <br>
 
+<br>
+
+<img src="https://github.com/user-attachments/assets/49b0f632-1716-4a72-945f-cf39af4309d6">
+
 </div>
 
 ## :calendar: 목차
